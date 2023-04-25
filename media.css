@@ -2871,3 +2871,2876 @@
 	display: flex;
 	align-items: center;
 }
+@media only screen and (min-width: 1441px) {
+	.category-heading>h1 {
+		font-size: 48px;
+	}
+
+	.container {
+		width: 1440px !important;
+	}
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.top-container {
+		padding-top: 4em;
+	}
+	#archive-case-study-member{
+		margin-top: 3em;
+		.member-img-block{
+			&.text-right{
+				padding-right: 0;
+			}
+			&.text-left{
+				padding-left: 0;
+			}
+		}
+	}
+	.blog_single_container{
+		&.team-single-container{
+			.post-header{
+				padding-top: 40px;
+			}
+			.team-featured-image > img{
+				max-width: 85%;
+				padding-left: 15%;
+			}
+		}
+	}
+
+	.page-codetrek {
+		.cover-container {
+			background-size: cover;
+			width: 100% !important;
+		}
+	}
+
+	.faq-modal {
+		.modal-body {
+			width: 100% !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1200px) {
+	.category-heading>h1 {
+		font-size: 48px;
+	}
+
+	.top-container {
+		padding-top: 4em;
+	}
+	.container{
+		width: 100%;
+	}
+	#archive-case-study-member{
+		margin-top: 3em;
+	}
+	.archive-case-study-member {
+		.member-img-block{
+			.member-img{
+				height: 400px;
+			}
+		}
+		.quote-block{
+			font-size: 18px;
+			top: 25px;
+			width: 200px;
+		}
+		.quote-text{
+			line-height: 22px;
+		}
+		&.archive-case-study-member-left{
+			.quote-block{
+				right: 70px;
+			}
+		}
+	}
+	#archive-case-study{
+		.blog_title{
+			font-size: 60px;
+		}
+		.blog_row{
+			.container{
+				width: 100%;
+			}
+		}
+	}
+	.blog_single_container{
+		&.team-single-container{
+			.post-header{
+				padding-top: 40px;
+			}
+		}
+	}
+	.codetrek-subscribe-section {
+		.content-section-left, .content-section-right {
+			padding: 0px 32px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1083px) and (min-width: 992px){ // we should eliminate this breakpoint
+	body {
+		font-size: 1em;
+	}
+	.blog-wrap {
+		margin-top: 5em;
+	}
+	.top-container {
+		padding-top: 4em;
+	}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+	.category-heading>h1 {
+		font-size: 48px;
+	}
+
+	.now-running-title {
+		height:30px ;
+		width:300px ;
+	}
+
+	.on-going-session-box{
+		margin-top:10px;
+		width: 300px;
+	}
+
+	.case_study_team_member_block {
+		.quote-block{
+			font-size: 16px;
+		}
+		.member-img-block{
+			margin-left: -10px;
+		}
+	}
+	.archive-case-study-member {
+		.member-img-block{
+			.member-img{
+				height: 300px;
+			}
+		}
+		.quote-block{
+			font-size: 16px;
+			top: 25px;
+			width: 150px;
+		}
+		.quote-text{
+			line-height: 18px;
+		}
+		&.archive-case-study-member-left{
+			.quote-block{
+				right: 50px;
+			}
+		}
+	}
+	#archive-case-study-member{
+		margin-top: 3em;
+	}
+	#archive-case-study{
+		.blog_title{
+			font-size: 40px;
+		}
+		.blog_category{
+			margin-top: 24px;
+			margin-bottom: 24px;
+		}
+	}
+	.single-content{
+		line-height: 22px;
+		font-size: 16px;
+	}
+	.tile{
+		.tile-inner {
+			height: 300px;
+		}
+		.tile-title{
+			font-size: 26px;
+		}
+	}
+	.page-container{
+		&.archive-container{
+			width: 100%;
+		}
+	}
+	.blog_single_container{
+		&.team-single-container{
+			.single-post-title{
+				font-size: 45px;
+				line-height: 55px;
+			}
+			.single-post-subtitle{
+				font-size: 30px;
+				line-height: 40px;
+			}
+		}
+	}
+	.page-careers{
+		.career-jumbotron{
+			height: 400px;
+			margin-top: 40px;
+			padding-top: 150px;
+			background-size: contain;
+		}
+	}
+	.page-single-career{
+		.career-jumbotron{
+			margin-top: 40px;
+			padding-top: 140px;
+			background-size: contain;
+			.title {
+				font-size: 40px;
+			}
+			.job-category, .job-location {
+				font-size: 18px;
+				padding-bottom: 8px;
+				padding-top: 3px;
+			}
+			.back-link {
+				padding-left: 30px;
+			}
+			.job-abstract {
+				font-size: 16px;
+				padding-right: 5px;
+			}
+		}
+		.content-block{
+			.cc-career-thumbnail{
+				width: 100%;
+				height: 350px;
+			}
+			.content-title {
+				padding-top: 25px;
+				font-size: 24px;
+				line-spacing: 24px;
+			}
+			.content-description {
+				p, li {
+					font-size: 16px;
+					line-spacing: 19px;
+				}
+				h1,h2,h3,h4,h5,h6 {
+					font-size: 16px;
+					line-spacing: 19px;
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+	.footer-form{
+		.caldera-grid .alert-success{
+			font-size: 20px;
+			line-height: 28px;
+		}
+	}
+	.codetrek-subscribe-section {
+		.content-section-left, .content-section-right {
+			padding: 0px 32px;
+		}
+	}
+	.page-contact{
+		.page-contact-container{
+			.container-title{
+				font-size: 100px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	body {
+		font-size: 1em;
+	}
+
+	.on-going-session-box{
+		margin-top: 6px;
+	}
+
+	.featured-qna {
+		top: 0;
+	}
+
+	.category-heading>h1 {
+		font-size: 48px;
+	}
+
+	.header {
+		top: 0;
+		position: fixed;
+		background-color: $white;
+		z-index: 9999;
+		margin-top: 0;
+		padding-top: 2em;
+		width: 100%;
+	}
+	.space-header {
+		height: 5em;
+		width: 100%;
+	}
+	.content-bottom-large {
+		margin-left: 16.66666%;
+	}
+	.blog-wrap {
+		margin-top: 5em;
+	}
+	.fc-type {
+		font-size: 2em;
+	}
+	.hero-section {
+		margin-top: 5em;
+	}
+	.page_container {
+		margin-top: 9em;
+	}
+	.case_study_single_content_section {
+		display: flex !important;
+		flex-direction: column-reverse;
+	}
+	.case_study_team_member_block {
+		.quote-block{
+			font-size: 16px;
+		}
+		.member-img-block{
+			margin-left: -10px;
+		}
+	}
+	#archive-case-study-member {
+		display: block;
+		.member-img-block{
+			display: inline-block;
+			.member-img{
+				height: 300px;
+				width: auto;
+			}
+		}
+		.quote-block{
+			display: inline-block;
+			position: relative;
+			font-size: 16px;
+			top: 25px;
+			width: 240px;
+		}
+		&.archive-case-study-member-left{
+			.quote-block{
+				right: 0px;
+			}
+		}
+	}
+	.single-content{
+		line-height: 22px;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.page-title{
+		margin-bottom: 30px;
+		margin-top: 30px;
+		font-size: 30px;
+	}
+	.tile{
+		.tile-inner {
+			height: 300px;
+		}
+		.tile-title{
+			font-size: 24px;
+		}
+	}
+	.page-container{
+		.post-row{
+			div{
+				padding: 0;
+			}
+		}
+		&.archive-container{
+			width: 100%;
+		}
+	}
+	//navbar collapse on sm
+	.navbar-header {
+		float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar-text {
+		float: none;
+		margin: 15px 0;
+	}
+	.navbar-collapse.collapse.in {
+		display: block!important;
+	}
+	.collapsing {
+		overflow: hidden!important;
+	}
+	.blog_single_container{
+		&.team-single-container{
+			.team-single-jumbotron{
+				.single-post-title{
+					font-size: 42px;
+					line-height: 60px;
+				}
+				.single-post-subtitle{
+					font-size: 28px;
+					line-height: 40px;
+				}
+			}
+		}
+	}
+	.page-careers{
+		.career-jumbotron{
+			height: 400px;
+			margin-top: 20px;
+			padding-top: 100px;
+			background-size: contain;
+		}
+		.page-heading {
+			line-height: 70px;
+			font-size: 70px;
+		}
+	}
+	.page-single-career{
+		.career-jumbotron{
+			margin-top: 40px;
+			padding-top: 120px;
+			background-size: contain;
+			.title {
+				line-height: 35px;
+				font-size: 30px;
+			}
+			.job-category, .job-location {
+				font-size: 16px;
+				padding-bottom: 8px;
+				padding-top: 3px;
+			}
+			.location-icon{
+				width: 30px;
+			}
+			.back-link {
+				padding-left: 5px;
+				font-size: 16px;
+			}
+			.job-abstract {
+				font-size: 16px;
+				padding-right: 5px;
+			}
+		}
+		.content-block{
+			.cc-career-thumbnail{
+				width: 100%;
+				height: 350px;
+			}
+			.content-title {
+				padding-top: 20px;
+				font-size: 24px;
+				line-spacing: 24px;
+			}
+			.content-description {
+				p, li {
+					font-size: 16px;
+					line-spacing: 19px;
+				}
+				h1,h2,h3,h4,h5,h6 {
+					font-size: 16px;
+					line-spacing: 19px;
+					padding-top: 10px;
+				}
+			}
+		}
+		.button-row {
+			padding-bottom: 0px;
+			.apply-button {
+				font-size: 18px;
+				width: 146px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+			.forward-link {
+				font-size: 18px;
+				display: inline-block;
+				padding-top: 18px;
+				padding-bottom: 30px;
+			}
+		}
+	}
+	.page-contact{
+		.page-contact-container{
+			.container-title{
+				padding: 0;
+				font-size: 100px;
+			}
+			.office-block{
+				padding: 15px 0;
+			}
+			.email-block{
+				padding: 30px 0;
+			}
+		}
+	}
+	.page-codetrek {
+		.how-it-works-section {
+			.single-question-block {
+				padding-top: 20px;
+			}
+		}
+		.get-started-section {
+			padding-top: 50px;
+			.get-started-container {
+				.heading {
+					padding-top: 20px;
+				}
+				.get-started-button {
+					padding-bottom: 40px;
+					padding-top: 50px;
+				}
+			}
+		}
+		.upcoming-sessions-header {
+			margin-top: 70px;
+		}
+		.past-sessions-header {
+			margin-top: 60px;
+		}
+		.selection-process-section {
+			padding-top: 70px;
+			.selection-process-content {
+				.single-process {
+					width: 360px;
+				}
+			}
+			.content {
+				padding: 20px 30px 30px;
+			}
+		}
+		.codetrek-experience-section-container {
+			.tagline {
+				padding-bottom: 36px;
+			}
+			.codetrek-experience-image {
+				padding: 5px;
+			}
+		}
+		.college-section {
+			margin-top: 70px;
+			.heading, .tagline, .content {
+				padding: 0px;
+			}
+			.question-for-college {
+				padding-top: 40px;
+				padding-bottom: 40px;
+			}
+			.tagline {
+				padding-top: 15px;
+			}
+			.content {
+				padding-top: 30px;
+				padding-bottom: 40px;
+			}
+			.container {
+			}
+			.kit-download-link-row {
+				padding-top: 0px;
+			}
+			.kit-download-link-tagline {
+				padding-bottom: 30px;
+				padding-top: 10px;
+			}
+			.kit-download-button {
+				font-size: 18px;
+				width: 256px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+			}
+		}
+		.codetrek-subscribe-section {
+			padding-top: 65px;
+			.content-section-right {
+				padding: 0px 45px 0px 15px;
+			}
+		}
+		.codetrek-session-container {
+			.why-start-here-modal {
+				.modal-dialog {
+					width: 80%;
+				}
+			}
+			.past-sessions {
+				padding-bottom: 81px;
+			}
+		}
+		.codetrek-subscribe-section {
+			margin-top: 70px;
+			.form-box-row {
+				margin-bottom: 40px;
+				margin-top: 40px;
+			}
+
+			.codetrek-subscribe-container {
+				.tagline {
+					text-align: left;
+					white-space: nowrap;
+				}
+			}
+		}
+		.codetrek-session-container {
+			.why-start-here-modal {
+				.modal-dialog {
+					width: 80%;
+				}
+			}
+		}
+		.codetrek-subscribe-section {
+			margin-top: 70px;
+			.form-box-row {
+				margin-bottom: 40px;
+				margin-top: 40px;
+			}
+
+			.codetrek-subscribe-container {
+				.tagline {
+					text-align: left;
+					white-space: nowrap;
+				}
+			}
+		}
+		.codetrek-session-container {
+			.why-start-here-modal {
+				.modal-dialog {
+					width: 80%;
+				}
+			}
+		}
+	}
+
+	.faq-modal {
+		.modal-dialog {
+			width: 80%;
+		}
+	}
+
+	.page-single-codetrek-session {
+		.codetrek-registration-section {
+			.codetrek-registration-container {
+				.form-container {
+					padding-left: 50px;
+					padding-right: 50px;
+				}
+			}
+		}
+		.why-start-here-modal {
+			.modal-dialog {
+				width: 80%;
+			}
+		}
+	}
+	.footer-form{
+		.caldera-grid .alert-success{
+			font-size: 20px;
+			line-height: 28px;
+		}
+	}
+	#primary_navigation_mobile{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.talks-widget{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-section {
+		.section-heading {
+			margin-bottom: 20px;
+			margin-top: 40px;
+			width: 620px;
+			h1 {
+				font-size: 54px;
+			}
+		}
+
+		.product-text {
+			font-size: 18px;
+			line-height: 27px;
+			width: 364px;
+		}
+
+		.image-content {
+			img {
+				width: 540px;
+			}
+		}
+	}
+	.input-type-button input[type=submit]{
+		padding: 20px 35px !important;
+		font-size: 20px !important;
+	}
+	.page-books{
+		.research-studies-container{
+			width: 710px;
+			justify-content: center;
+		}
+	}
+	.page-snapshot{
+		padding:40px 60px 60px;
+		.page-heading{
+			font-size:70px;
+		}
+		.sub-heading{
+			font-size:27px;
+			@include margin-v(40px);
+			width:600px;
+		}
+		.url-links{
+			display:flex;
+			flex-direction:row;
+			margin-top:40px;
+			.blog-link{
+				margin-top:0;
+				margin-left:50px;
+			}
+		}
+		.blogs-section{
+			flex-direction:row;
+			margin-top:60px;
+			.sub-heading{
+				margin-top:30px;
+				width:100%;
+				margin-bottom:10px;
+			}
+		}
+		.blog-section{
+			width: 330px;
+		}
+		.article-link{
+			width:300px;
+			font-size:36px;
+		}
+	}
+	.category-option-selection > select{
+		width:212px;
+		height: 30px;
+		margin-bottom: 25px;
+		font-size:16px;
+		padding-left: 15px;
+		background-size: 16px 8px;
+	}
+	.page-talks{
+		padding-top:30px;
+		margin-bottom:50px;
+		.page-talks-header{
+			.tagline{
+				width:620px;
+				font-size:18px;
+				margin-bottom:25px;
+			}
+		}
+		.talks-container{
+			.talk-container{
+				flex-direction: row;
+				width: 728px;
+				padding: 40px 54px;
+				justify-content: space-between;
+				margin-top:25px;
+				margin-bottom:25px;
+				.talk-sub-container{
+					width: 360px;
+					align-items: flex-start;
+					.talk-title{
+						font-size:54px;
+						text-align: left;
+					}
+					.talk-author{
+						font-size: 18px;
+						margin-top:20px;
+					}
+					.talk-content{
+						line-height:27px;
+						margin-top:30px;
+						text-align: left;
+						font-size: 18px;
+					}
+					.read-more{
+						margin-top:20px;
+						font-size:20px;
+					}
+				}
+				.talk-author-image{
+					@include square_box(240px);
+					margin-top:0;
+				}
+			}
+		}
+		.load-more{
+			width:150px;
+			height:40px;
+			padding:5px;
+			font-size:20px;
+			margin-top:15px;
+		}
+	}
+	.talks-mail-form{
+		height:360px;
+		padding-top:40px;
+		padding-bottom:40px;
+		font-size:36px;
+		.talks-form-text, .talks-form-sub-text{
+			width:530px;
+		}
+		.talks-form-sub-text{
+			margin-top:25px;
+			margin-bottom:40px;
+		}
+		.talks-email-input{
+			width:530px;
+			height:60px;
+			input{
+				width:460px;
+				font-size:20px;
+				padding-left:30px;
+				height:58px;
+			}
+			.talks-form-submit{
+				width: 71px;
+			}
+			.alert{
+				font-size: 21px;
+			}
+		}
+	}
+	.single-talks{
+		.single-jumbotron{
+			.back-button-row{
+				img{
+					width:10px;
+					height:17px;
+					margin-bottom: 5px;
+					margin-right: 5px;
+				}
+			}
+			.back-button{
+				font-size:18px;
+				line-height:21px;
+				color:$blue;
+			}
+		}
+		.talks-info-container{
+			.talk-author-image{
+				@include square_box(176px);
+			}
+			.about-talks-author{
+				margin-left:20px;
+				font-size:18px;
+				.author-name{
+					margin-top:40px;
+				}
+				.author-designation{
+					margin-top:20px;
+				}
+			}
+		}
+	}
+	.now-running-title{
+		width: 300px;
+	}
+	.on-going-session-box{
+		padding-top:25px;
+		margin-left:auto;
+		.title{
+			font-size:36px;
+		}
+		.session-date{
+			margin-top:10px;
+			font-size: 18px;
+		}
+		.session-content{
+			font-size:18px ;
+			margin-top:15px;
+		}
+	}
+
+	.page-internship{
+		.internship-blogs-container{
+			.item{
+				transition: 250ms ease-in-out left;
+			}
+			.carousel-inner>.active{
+				display: flex;
+			}
+			@media all and (transform-3d), (-webkit-transform-3d) {
+				.item{
+					transition: 250ms ease-in-out left;
+					transition: 250ms ease-in-out all;
+					backface-visibility: visible;
+					transform: none!important;
+				}
+			}
+			.active{
+				&.left{
+					left:-33%;
+				}
+				&.right{
+					left:33%;
+				}
+			}
+			.next{
+				left: 33%;
+			}
+			.prev{
+				left: -33%;
+			}
+		}
+	}
+	.page-careers{
+		.content-heading {
+			font-size: 30px;
+		}
+		.career-content-container{
+			padding-bottom: 60px;
+			.career-category{
+				padding-top: 40px;
+			}
+		}
+		.career-jumbotron{
+			background-image: url('dist/img/archive-career-bg.png');
+		}
+	}
+	.page-heading-section {
+		display: flex;
+		align-items: baseline;
+	}
+	.see-all-link {
+			margin-left: 0;
+
+		a {
+			font-size: 25px;
+		}
+	}
+
+	.page-codetrek {
+
+		.section-heading {
+			font-size: 54px;
+		}
+
+		.featured-heading {
+			margin-left: auto;
+			margin-right: auto;
+			width: 690px;
+		}
+
+		.how-it-works-section {
+			.image-content-section {
+				margin-bottom: 70px;
+			}
+
+			.image-content-block {
+				align-items: center;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.content {
+				margin-top: 30px;
+				margin-bottom: 70px;
+			}
+
+			.approval-block {
+				padding-bottom: 70px;
+				width: 467px;
+			}
+
+			.featured-section-content {
+				margin-bottom: 70px;
+				margin-left: auto;
+				margin-right: auto;
+				width: 450px;
+			}
+
+			.content-block {
+				align-self: flex-start;
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 0;
+				margin-top: 30px;
+			}
+
+			.image-block {
+				.image-1 {
+					margin-top: 20px;
+					margin-bottom: 30px;
+				}
+
+				.image-3 {
+					margin-bottom: 10px;
+				}
+			}
+			.text-block {
+				width: 300px;
+			}
+			.faq-flag-row {
+				display: flex;
+			}
+			.faq-flag {
+				height: 121px;
+				margin-bottom: -35px;
+				width: 170px;
+				margin-left: auto;
+				margin-right: 10px;
+				.faq-tagline {
+					font-size: 18px;
+					line-height: 27px;
+					margin-top: 10px;
+				}
+			}
+		}
+
+		.codetrek-session-container {
+			.single-session-box {
+				span{
+					font-size: 20px;
+				}
+			}
+		}
+	}
+
+	.page-single-codetrek-session {
+		.codetrek-registration-section {
+			.codetrek-registration-container {
+				.form-container {
+					.codetrek-interaction-form-button {
+						width:230px;
+					}
+					.codetrek-registration-content{
+						margin-top:50px;
+						font-size: 18px;
+					}
+					.codetrek-button-row {
+						padding-top: 30px;
+					}
+				}
+			}
+		}
+		.codetrek-register, .codetrek-interaction-form-button{
+			font-size: 20px;
+			padding: 16px 0px;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.page-codetrek{
+		.now-running-title{
+			margin-top: 17px;
+		}
+		.on-going-session-box{
+			padding: 20px;
+			width: 280px;
+			margin: auto;
+		}
+		.session-content{
+			margin-top:15px;
+		}
+
+		.codetrek-session-container{
+			.past-sessions {
+				.slick-next,.slick-prev{
+					top: 135px !important;
+				}
+			}
+		}
+		.codetrek-testimonies {
+			.person-comment{
+				font-size: 21px;
+				padding-top: 20px;
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+		}
+		.person-name{
+			font-size: 21px;
+			padding-top: 37px;
+		}
+		.person-info{
+			font-size:14px;
+		}
+		.quote-pic{
+			margin-top: 20px;
+			height:44px;
+			width:60px;
+		}
+		.person-image{
+			margin-top: 40px;
+			width:60px ;
+			height: 60px;
+		}
+	}
+	.page-internship {
+		.internship-blogs-container {
+			.carousel-control {
+				width: 30px;
+				height: 30px;
+				&.left {
+					margin-left: -20px;
+				}
+				&.right {
+					margin-right: -20px;
+				}
+			}
+		}
+	}
+	.page-single-career {
+		.button-row {
+			padding-bottom: 0px;
+			.apply-button {
+				font-size: 18px;
+				width: 146px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+			.forward-link {
+				font-size: 18px;
+				display: inline-block;
+				padding-top: 18px;
+				padding-bottom: 30px;
+			}
+		}
+	}
+	.page-single-codetrek-session {
+		.social-media {
+			flex-direction: row;
+			justify-content: center;
+			div {
+				margin: 0px 7.5px;
+			}
+		}
+		.codetrek-links {
+			padding-top: 30px;
+			flex-direction: column;
+			div {
+				font-size: 21px;
+				height: 96px;
+			}
+			.right-link {
+				padding-right: 70px;
+				margin-left: 0px;
+				margin-top: 5px;
+			}
+			.left-link {
+				justify-content: flex-end;
+				padding-left: 70px;
+				margin-right: 0px;
+				margin-bottom: 5px;
+				text-align: right;
+			}
+		}
+	}
+	.talks-widget{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	body {
+		font-size: 1em;
+	}
+
+	.on-going-session-box{
+		padding-top:10px;
+		margin-top:10px;
+		.title{
+			font-size:36px;
+		}
+		.session-date{
+			margin-top:10px;
+			font-size: 18px;
+		}
+		.session-content{
+			font-size: 18px;
+			margin-top:15px;
+		}
+	}
+
+	.featured-qna {
+		position: inherit;
+		top: 0;
+	}
+	.icon-bar {
+		float: none;
+	}
+	.header {
+		top: 0;
+		position: fixed;
+		background-color: $white;
+		z-index: 9999;
+		margin-top: 0;
+		padding-top: 2em;
+		width: 100%;
+	}
+
+	ul>li {
+		font-size: 1.5em;
+		a {
+			font-size: 1em;
+			float: none;
+		}
+	}
+	.content-bottom-large {
+		margin-left: 16.66666%;
+	}
+	.contact-form-heading {
+		font-size: 3em;
+	}
+	.footer-nav-heading {
+		font-size: 3em;
+	}
+	.fc-type {
+		font-size: 2em;
+	}
+	.page_container {
+		margin-top: 6em;
+	}
+	.case_study_single_content_section {
+		display: flex !important;
+		flex-direction: column-reverse;
+	}
+	.footer-container{
+		padding: 0;
+	}
+	.case_study_team_member_block {
+		.quote-block{
+			font-size: 16px;
+		}
+		.member-img-block{
+			margin-left: 0;
+			text-align: center;
+			.member-img{
+				display: inline-flex;
+				height: 200px;
+			}
+		}
+	}
+	#archive-case-study-member {
+		display: block;
+		.member-img-block{
+			display: inline-block;
+			.member-img{
+				height: 300px;
+				width: auto;
+			}
+		}
+		.quote-block{
+			display: inline-block;
+			position: relative;
+			font-size: 16px;
+			top: 25px;
+			width: 240px;
+		}
+		&.archive-case-study-member-left{
+			.quote-block{
+				right: 0px;
+			}
+		}
+	}
+	.single-content{
+		line-height: 22px;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.page-title{
+		margin-bottom: 30px;
+		margin-top: 30px;
+		font-size: 30px;
+	}
+	.tile{
+		.tile-inner {
+			height: 300px;
+		}
+		.tile-title{
+			font-size: 24px;
+		}
+	}
+	.page-container{
+		.post-row{
+			div{
+				padding: 0;
+			}
+		}
+		&.archive-container{
+			width: 100%;
+		}
+	}
+	.blog_single_container{
+		&.team-single-container{
+			.team-single-jumbotron{
+				text-align: center;
+				padding-top: 30px;
+				.single-post-title{
+					font-size: 40px;
+					line-height: 60px;
+				}
+				.single-post-subtitle{
+					font-size: 26px;
+					line-height: 40px;
+				}
+			}
+		}
+	}
+	.page-careers{
+		.career-jumbotron{
+			background-image: url('dist/img/archive-career-bg.png');
+			height: 480px;
+			margin-top: 20px;
+			background-size: contain;
+		}
+		.page-heading {
+			line-height: 70px;
+			font-size: 70x;
+		}
+		.career-content-container{
+			padding-bottom: 60px;
+			.career-category{
+				padding-top: 40px;
+			}
+		}
+	}
+	.page-single-career{
+		.career-jumbotron{
+			padding-top: 100px;
+			margin-top: 20px;
+			.title {
+				line-height: 35px;
+				font-size: 30px;
+			}
+			.job-category, .job-location {
+				font-size: 16px;
+				padding-bottom: 8px;
+				padding-top: 3px;
+			}
+			.location-icon{
+				width: 30px;
+			}
+			.back-link {
+				padding-left: 5px;
+				font-size: 16px;
+			}
+			.job-abstract {
+				font-size: 16px;
+				padding-right: 5px;
+				padding-top: 10px;
+			}
+		}
+		.content-block{
+			.cc-career-thumbnail{
+				width: 100%;
+				height: 250px;
+			}
+			.content-title {
+				padding-top: 20px;
+				font-size: 24px;
+				line-spacing: 24px;
+			}
+			.content-description {
+				p,li {
+					font-size: 16px;
+					line-spacing: 19px;
+				}
+				h1,h2,h3,h4,h5,h6 {
+					font-size: 16px;
+					line-spacing: 19px;
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+	.page-contact{
+		.page-contact-container{
+			.container-title{
+				padding: 0;
+				font-size: 80px;
+			}
+			.office-block{
+				padding: 15px 0;
+			}
+			.email-block{
+				padding: 30px 0;
+			}
+		}
+	}
+
+	.page-research {
+		.page-research-container {
+			padding-top: 40px;
+			padding-bottom: 20px;
+			margin-left: 40px;
+			.container-title{
+				font-size: 80px;
+				padding-bottom: 20px;
+			}
+		}
+		.research-studies-container{
+			width: 490px;
+			.research-study-block{
+
+				.research-information{
+					font-size: 18px;
+					line-height: 24px;
+					margin-bottom: 5px;
+					.research-date,.research-download{
+						margin-top:10px;
+					}
+				}
+			}
+		}
+	}
+
+	.research-study{
+		height:200px;
+		width:350px;
+	}
+
+	.page-codetrek {
+		.how-it-works-section {
+			.text-block {
+				line-height: 27px;
+				width: 300px;
+			}
+		}
+		.codetrek-experience-section-container {
+			.codetrek-experience-image {
+				padding: 5px;
+			}
+		}
+	}
+	.selection-process-section {
+		padding-top: 50px;
+		.selection-process-heading {
+			font-size: 28px;
+			padding-top: 50px;
+		}
+		.selection-process-content {
+			.tagline {
+				font-size: 21px;
+			}
+			.content {
+				font-size: 14px;
+				padding-right: 10px;
+				padding-left: 10px;
+				line-height: 19.2px;
+			}
+			.single-process {
+				width: auto;
+				height: auto;
+			}
+		}
+	}
+	.footer-form {
+		.caldera-grid .alert-success{
+			font-size: 24px;
+			line-height: 36px;
+		}
+	}
+
+	#primary_navigation_mobile{
+		column-count: 2;
+		text-align: center;
+	}
+	.page-internship{
+		.internship-blogs-container{
+			.blog-block{
+				width: 96%;
+			}
+		}
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+	body {
+		font-size: 1em;
+	}
+	h1 {
+		font-size: 4em;
+	}
+	.featured-qna {
+		position: inherit;
+		top: 0;
+	}
+
+	.line-wrap {
+		padding-left: 0;
+	}
+
+	.on-going-session-box{
+		margin-top:10px;
+		.title{
+			font-size:28px;
+		}
+		.session-date{
+			margin-top:5px;
+			font-size: 14px;
+		}
+		.session-content{
+			font-size: 14px;
+			margin-top:16px;
+		}
+	}
+
+	.hr-header {
+		display: none;
+	}
+	.col-xxs-offset-3 {
+		margin-left: 25%;
+	}
+	.col-xxs-6 {
+		width: 50%;
+	}
+	.col-xxs-offset-1 {
+		margin-left: 8.33333333%;
+	}
+	.col-xxs-10 {
+		width: 83.33333333%;
+	}
+	.space-header {
+		height: 8.5em;
+		width: 100%;
+	}
+
+	.content-bottom-large {
+		margin-left: 16.66666%;
+	}
+	.contact-form-heading {
+		font-size: 3em;
+	}
+	.footer-nav-heading {
+		font-size: 3em;
+	}
+	.fcs-header {
+		font-size: 3em;
+	}
+	.fj-header {
+		font-size: 3em;
+	}
+	.qna-heading {
+		font-size: 3em;
+	}
+	.fc-heading {
+		font-size: 3em;
+	}
+	.blog_section {
+		&>.blog_row {
+			&>div {
+				flex-basis: auto !important;
+			}
+		}
+	}
+	.page_container {
+		margin-top: 6em;
+	}
+	.case_study_single_content_section {
+		display: flex !important;
+		flex-direction: column-reverse;
+	}
+	.case_study_team_member_block {
+		.quote-block{
+			font-size: 16px;
+		}
+		.member-img-block{
+			margin-left: 0;
+			text-align: center;
+			.member-img{
+				display: inline-flex;
+				height: 200px;
+			}
+		}
+	}
+	#archive-case-study-member {
+		display: block;
+		.member-img-block{
+			display: block;
+			text-align: center;
+			.member-img{
+				height: 250px;
+				width: auto;
+			}
+		}
+		.quote-block{
+			display: block;
+			position: relative;
+			font-size: 16px;
+			top: 20px;
+			width: 100%;
+		}
+		&.archive-case-study-member-left{
+			.quote-block{
+				right: 0px;
+			}
+		}
+	}
+	.single-content{
+		line-height: 22px;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.page-title{
+		margin-bottom: 30px;
+		font-size: 30px;
+		margin-top: 30px;
+	}
+	.tile{
+		.tile-inner {
+			height: 300px;
+		}
+		.tile-title{
+			font-size: 24px;
+		}
+	}
+	.page-container{
+		.post-row{
+			div{
+				padding: 0;
+			}
+		}
+		&.archive-container{
+			width: 100%;
+		}
+	}
+	.blog_single_container{
+		&.team-single-container{
+			.team-single-jumbotron{
+				.team-featured-image{
+					padding: 0px 15px;
+				}
+				text-align: center;
+				padding-top: 20px;
+				.single-post-title{
+					font-size: 30px;
+					line-height: 40px;
+				}
+				.single-post-subtitle{
+					font-size: 20px;
+					line-height: 35px;
+				}
+			}
+		}
+	}
+	.page-careers{
+		.career-jumbotron{
+			padding-top: 270px;
+			margin-top: 20px;
+			height: 570px;
+			background-size: contain;
+		}
+		.page-subheading{
+			padding-top: 15px;
+		}
+		.content-heading {
+			font-size: 28px;
+		}
+		.career-select{
+			font-size: 21px;
+			line-height: 22px;
+			select {
+				height: 54px;
+				background-color: $single-jumbotron-bg;
+				min-width: 100%;
+			}
+		}
+		.career-content-container{
+			padding-bottom: 60px;
+			.career-category{
+				padding-top: 15px;
+			}
+			.career-category-seperator{
+				border-top: 2px solid transparent;
+				border-image-source: url('dist/img/dotted-line.svg');
+				border-image-slice:2;
+			}
+			.career-title{
+				font-size: 27px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				.location-icon {
+					width: 30px;
+				}
+			}
+		}
+	}
+	.page-single-career{
+		.career-jumbotron{
+			padding-top: 60px;
+			margin-top: 20px;
+			background-size: contain;
+			.title {
+				line-height: 35px;
+				font-size: 30px;
+			}
+			.job-category, .job-location {
+				font-size: 16px;
+				padding-bottom: 8px;
+				padding-top: 3px;
+			}
+			.location-icon{
+				width: 20px;
+			}
+			.back-link {
+				img{
+					width: 8px;
+				}
+				padding-left: 5px;
+				font-size: 18px;
+			}
+			.job-abstract {
+				font-size: 14px;
+				padding-right: 5px;
+				padding-top: 20px;
+			}
+		}
+		.content-block{
+			.cc-career-thumbnail{
+				width: 100%;
+				height: auto;
+			}
+			.content-title {
+				padding-top: 15px;
+				font-size: 21px;
+				line-spacing: 24px;
+			}
+			.content-description {
+				p, li {
+					font-size: 14px;
+					line-spacing: 19px;
+				}
+				h1,h2,h3,h4,h5,h6 {
+					font-size: 14px;
+					line-spacing: 19px;
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+	.page-contact{
+		.page-contact-container{
+			padding-top: 30px;
+			padding-bottom: 30px;
+			.container-title{
+				padding: 0;
+				font-size: 36px;
+				line-height: 50px;
+				padding-bottom: 20px;
+			}
+			.office-block{
+				padding: 15px 0;
+				.title{
+					font-size: 24px;
+					line-height: 30px;
+				}
+				.address{
+					font-size: 18px;
+					line-height: 25px;
+					padding-top: 15px;
+				}
+				.tile{
+					height: 200px;
+					&.map-tile{
+						margin-top: 15px;
+					}
+				}
+			}
+			.email-block{
+				padding: 0;
+				.email-label{
+					font-size: 20px;
+					line-height: 28px;
+				}
+				.email{
+					font-size: 18px;
+					line-height: 25px;
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+
+	.page-codetrek {
+		.how-it-works-section {
+			.single-question-block {
+				font-size: 14px;
+				padding-top: 20px;
+			}
+			.approval-block {
+				padding-top: 40px;
+				font-size: 21px;
+			}
+			.main-content {
+				.section-heading {
+					font-size: 30px;
+					margin-top: 50px;
+				}
+				.content {
+					font-size: 14px;
+				}
+			}
+		}
+		.upcoming-sessions-header, .past-sessions-header {
+			font-size: 28px;
+			.duration {
+				font-size: 14px;
+			}
+		}
+		.past-sessions-header {
+			margin-top: 40px;
+		}
+		.upcoming-sessions-header {
+			margin-top: 50px;
+		}
+		.codetrek-session-container {
+			.item {
+				padding-top: 20px;
+				padding-top: 30px;
+			}
+			.past-sessions {
+				padding-bottom: 50px;
+			}
+			.codetrek-session-block {
+				height: 150px;
+				width: 100%;
+				.post-title {
+					font-size: 28px;
+					padding-top: 30px;
+					line-height: 28px;
+				}
+				.post-date {
+					font-size: 14px;
+				}
+				.post-content {
+					font-size: 14px;
+					padding-top: 3px;
+					max-height: 50px;
+				}
+			}
+
+			.why-start-here-modal {
+				.modal-dialog {
+					width: 95%;
+				}
+
+				.wsh-content {
+					p {
+						font-size: 14px;
+						line-height: 19px;
+						padding-left: 20px;
+						padding-right: 20px;
+					}
+				}
+			}
+		}
+		.get-started-section {
+			padding-top: 30px;
+			padding-bottom: 50px;
+			.get-started-container {
+				.heading {
+					font-size: 30px;
+					padding-top: 20px;
+					line-height: 35px;
+				}
+				.tagline {
+					font-size: 21px;
+					padding-top: 15px;
+				}
+				.content {
+					font-size: 14px;
+					padding-left: 25px;
+					padding-right: 25px;
+				}
+			}
+		}
+		.selection-process-section {
+			padding-top: 50px;
+			.selection-process-heading {
+				font-size: 28px;
+				padding-top: 50px;
+			}
+			.selection-process-content {
+				.tagline {
+					font-size: 21px;
+				}
+				.content {
+					font-size: 14px;
+					padding-right: 10px;
+					padding-left: 10px;
+					line-height: 19.2px;
+				}
+				.single-process {
+					width: auto;
+					height: auto;
+				}
+			}
+		}
+		.codetrek-experience-section-container {
+			.heading {
+				font-size: 30px;
+				line-height: 35px;
+			}
+			.tagline {
+				font-size: 21px;
+				padding-top: 15px;
+				padding-bottom: 30px;
+			}
+			.codetrek-experience-image {
+				padding: 5px;
+			}
+		}
+		.college-section {
+			margin-top: 50px;
+			.heading, .tagline, .content {
+				padding: 0px;
+			}
+			.question-for-college {
+				font-size: 28px;
+				padding-bottom: 25px;
+			}
+			.heading {
+				font-size: 30px;
+				line-height: 36px;
+				padding: 0px;
+			}
+			.tagline {
+				font-size: 21px;
+				padding-top: 10px;
+			}
+			.content {
+				font-size: 14px;
+				line-height: 19px;
+				padding: 25px 0px;
+			}
+			.container {
+				padding: 30px 20px;
+			}
+			.kit-download-link-row {
+				padding-top: 0px;
+			}
+			.kit-download-link-tagline {
+				padding-bottom: 30px;
+				padding-top: 10px;
+			}
+
+
+			.kit-download-button {
+				font-size: 18px;
+				width: 256px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+			}
+		}
+		.codetrek-subscribe-section {
+			margin-top: 50px;
+
+			.zero-padding {
+				padding: 0;
+			}
+
+			.form-box-row {
+				margin-bottom: 30px;
+				margin-top: 30px;
+			}
+
+			.codetrek-subscribe-container {
+				.heading {
+					font-size: 30px;
+					line-height: 35px;
+				}
+				.tagline {
+					font-size: 21px;
+					padding-top: 10px;
+				}
+				.form-container {
+					input, textarea {
+						font-size: 18px;
+					}
+					.codetrek-button-row {
+						padding-top: 5px;
+					}
+					.codetrek-subscribe-button {
+						font-size: 16px;
+						width: 110px;
+						padding-top: 14px;
+						padding-bottom: 14px;
+					}
+				}
+			}
+		}
+
+		.faq-section {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.faq-modal {
+			.close-button {
+				.close-link {
+					font-size: 14px;
+					padding-top: 10px;
+					padding-right: 10px;
+				}
+			}
+			.modal-dialog {
+				width: 95%;
+			}
+			.modal-title {
+				font-size: 28px;
+				padding: 10px;
+			}
+			.modal-header {
+				padding: 0px;
+			}
+			.selection-process-content {
+				.tagline {
+					font-size: 21px;
+				}
+				.content {
+					font-size: 14px;
+				}
+				.single-process {
+					width: auto;
+					height: auto;
+				}
+			}
+		}
+		.codetrek-subscribe-section {
+			padding-top: 60px;
+			.codetrek-subscribe-container {
+				.heading {
+					font-size: 30px;
+					line-height: 30px;
+				}
+				.tagline {
+					font-size: 21px;
+					padding-top: 10px;
+				}
+				.form-container {
+					padding-top: 25px;
+
+					.codetrek-subscribe-button {
+						font-size: 16px;
+						width: 110px;
+						padding-top: 14px;
+						padding-bottom: 14px;
+					}
+				}
+			}
+		}
+		.faq-section {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+	.faq-modal {
+		.close-button {
+			.close-link {
+				font-size: 14px;
+				padding-top: 10px;
+				padding-right: 10px;
+			}
+		}
+		.modal-dialog {
+			width: 95%;
+		}
+		.modal-title {
+			font-size: 28px;
+			padding: 10px;
+		}
+		.modal-header {
+			padding: 0px;
+		}
+		.faq-content, .close {
+			font-size: 14px;
+		}
+		.modal-body {
+			padding-top: 0px;
+		}
+	}
+
+	.social-sharing-row {
+		.share-tagline {
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+	.codetrek-sharing-icons {
+		div {
+			padding: 0px 5px;
+		}
+		img {
+			width: 35px;
+		}
+	}
+
+	.page-single-codetrek-session {
+		.links {
+			font-size: 18px;
+			padding-top: 10px;
+		}
+		.heading {
+			font-size: 30px;
+			line-height: 30px;
+		}
+		.tagline {
+			font-size: 14px;
+		}
+		.share-to-friend-link {
+			padding-top: 0px;
+		}
+		.session-container {
+			padding-top: 30px;
+			padding-bottom: 60px;
+			.title {
+				font-size: 14px;
+			}
+			.content {
+				font-size: 14px;
+				padding-top: 5px;
+			}
+			.session-about {
+				padding-top: 20px;
+			}
+			.faq-content, .close {
+				font-size: 14px;
+			}
+			.modal-body {
+				padding-top: 0px;
+			}
+		}
+
+		.why-start-here {
+			span {
+				font-size: 18px;
+				line-height: 21px;
+			}
+		}
+
+		.why-start-here-modal {
+			.modal-dialog {
+				width: 95%;
+			}
+
+			.wsh-content {
+				p {
+					font-size: 14px;
+					line-height: 19px;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+		}
+
+		.codetrek-registration-section {
+			padding-top: 50px;
+			.codetrek-registration-container {
+				.tagline {
+					font-size: 21px;
+					padding-top: 10px;
+				}
+				.form-container {
+					padding: 20px 20px 0px;
+					input, textarea, select {
+						font-size: 18px;
+					}
+					.codetrek-register {
+						width: 100px;
+					}
+				}
+			}
+		}
+		.codetrek-button-row {
+			padding-top: 20px;
+		}
+		.session-walkthrough-container {
+			padding-top: 50px;
+			.session-content {
+				padding-top: 30px;
+				h1,h2,h3,h4,h5,h6 {
+					font-size: 21px;
+				}
+				p, table{
+					font-size: 14px;
+				}
+			}
+			.codetrek-register {
+				width: 220px;
+			}
+		}
+	}
+
+	.footer-form{
+		.caldera-grid .alert-success{
+			font-size: 18px;
+			line-height: 25px;
+		}
+	}
+	#primary_navigation_mobile{
+		column-count: 2;
+		text-align: center;
+	}
+	.page-internship{
+		.internship-blogs-container{
+			.blog-block{
+				width: 96%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	.view-all-case {
+		margin-left: 0;
+		display: block;
+		margin-top: 2em;
+	}
+	.page-careers{
+		.content-heading {
+			font-size: 24px;
+		}
+	}
+}
+@media only screen and (min-width: 425px) {
+	.coloredcow-form {
+		.btn-default {
+			padding: 6px 12px;
+		}
+	}
+}
+@media only screen and (min-width: 768px) {
+	.page-plugin-development{
+		margin-top: 42px;
+		.video-container h1 {
+			top: 35%;
+			font-size: 65px;
+			display: flex;
+		}
+		.wp{
+			height: 90px;
+			width: 90px;
+		}
+	}
+	.coloredcow-form {
+		.bootstrap-container {
+			width: 750px;
+		}
+	}
+	.page-codetrek {
+		.codetrek-jumbotron {
+			.cc-container {
+				display: flex;
+				align-items: flex-end;
+				flex-direction: column;
+				justify-content: flex-end;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}
+			.cc-container {
+				max-width: 300px;
+			}
+			.on-going-session-carousel {
+				width: 300px;
+			}
+		}
+		.header-division {
+			margin-left: 10px;
+			margin-top: -275px;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 40px;
+			.title {
+				font-size: 70px;
+			}
+			.description {
+				font-size: 27px;
+				line-height: 32px;
+			}
+			.content {
+				font-size: 18px;
+				line-height: 27px;
+			}
+			.why-started {
+				margin-bottom: 0;
+				a {
+					font-size: 20px;
+					line-height: 24px;
+				}
+			}
+		}
+		.college-participation-band {
+			.tag-content {
+				text-align: left;
+				font-size: 27px;
+				line-height: 32px;
+			}
+		}
+		.how-it-works-section {
+			padding-top: 110px;
+		}
+	}
+	.project-codetrek {
+		.alumni-container {
+			padding: 70px 0;
+			.heading {
+				font-size: 54px;
+				margin-bottom: 20px;
+			}
+			.tagline {
+				font-size: 27px;
+				line-height: 32px;
+			}
+			.image-block {
+				width: 170px;
+				height: 170px;
+				margin: 10px;
+				font-size: 18px;
+				line-height: 27px;
+			}
+		}
+	}
+	.page-single-codetrek-session {
+		.session-container {
+			.mentor-block {
+				padding-top: 15px;
+				.image {
+					max-width: 70px;
+				}
+			}
+		}
+		.session-readmore {
+			.readmore-button {
+				font-size: 20px;
+				line-height: 24px;
+				padding: 18px 40px;
+			}
+		}
+	}
+	.mentor-modal {
+		.modal-dialog {
+			width: auto;
+			margin: 50px;
+		}
+		.modal-body {
+			padding-left: 0;
+			padding-right: 35px;
+			padding-bottom: 0;
+			text-align: left;
+			display: flex;
+			.block-title {
+				font-size: 27px;
+				line-height: 32px;
+			}
+			.block-content {
+				font-size: 18px;
+				line-height: 27px;
+			}
+			.name,
+			.mentor-sessions {
+				padding-left: 60px;
+			}
+			.name {
+				margin-bottom: 30px;
+			}
+			.mentor-content-block {
+				margin-bottom: 60px;
+			}
+			.mentor-meta-block {
+				display: flex;
+				flex-direction: column;
+				.image {
+					margin-top: auto;
+				}
+			}
+		}
+	}
+	.page-research {
+		.page-research-container {
+			padding-top: 60px;
+			width:768px;
+			.container-title{
+				font-size: 100px;
+				line-height: 80px;
+				padding-bottom: 20px;
+			}
+			.title{
+				font-size: 22px;
+				line-height: 30px;
+			}
+		}
+
+		.research-study-block{
+			.research-title{
+				font-size: 23px;
+				padding-top: 105px;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			.research-information{
+				font-size: 21px;
+				line-height: 24px;
+				padding-left:3px;
+				margin-bottom: 5px;
+				.research-date,.research-download{
+					margin-top:10px;
+				}
+			}
+		}
+	}
+
+	.research-study{
+		width:300px;
+	}
+	.research-studies-container{
+		width: 768px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.page-snapshot {
+		.sub-heading {
+			width: 800px;
+		}
+		.blog-link{
+			margin-left:60px;
+		}
+	}
+	.coloredcow-form {
+		.bootstrap-container {
+			width: 970px;
+		}
+		form {
+			button {
+				padding: 10px 20px;
+			}
+		}
+	}
+	.page-codetrek {
+		.codetrek-jumbotron {
+			.left-block {
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+			.right-block {
+				img {
+					width: 400px;
+					height: 400px;
+				}
+			}
+		}
+		.get-started-section {
+			.content {
+				margin-bottom: 100px;
+			}
+		}
+	}
+	.mentor-modal {
+		.modal-dialog {
+			width: 930px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.page-single-codetrek-session {
+		.session-readmore {
+			margin-left: math.div(1, 12);
+		}
+	}
+	.talks-widget{
+		.talks-widget-container{
+			width:300px;
+			margin-left: 30px;
+			.header-text{
+				font-size: 24px;
+			}
+			.talks-title{
+				width:188px;
+			}
+			.talks-author-image{
+				margin-top: 20px;
+			}
+			.read-more-talks{
+				padding-top: 18px;
+			}
+		}
+	}
+	.single-talks{
+		.back-button{
+			margin-left: 30px;
+		}
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.product-section {
+		.section-heading {
+			margin-bottom: 30px;
+			width: 690px;
+		}
+
+		.section-content-block {
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: center;
+			justify-content: space-around;
+		}
+
+		.product-text {
+			width: 330px;
+		}
+	}
+	.page-plugin-development {
+		margin-top: 27px;
+	}
+	.page-snapshot{
+		padding:50px 130px 150px;
+		.sub-heading{
+			@include margin-v(60px);
+			width:809px;
+		}
+		.blogs-and-case-studies-section{
+			.case-studies{
+				margin-left:90px;
+			}
+		}
+		.url-links{
+			margin-top:60px;
+			.blog-link{
+				margin-left:120px;
+			}
+		}
+		.article-link{
+			width:330px;
+			margin-bottom:40px;
+		}
+		.blogs-section{
+			margin-top:60px;
+		}
+		.blog-section{
+			margin-top: 40px;
+		}
+		.blog-links{
+			margin-left:20px;
+		}
+	}
+	.page-talks{
+		padding-top:35px;
+		margin-bottom:70px;
+		.page-talks-header{
+			.tagline{
+				width:814px;
+				margin-bottom:35px;
+				margin-top:10px;
+			}
+		}
+		.talks-container{
+			.talk-container{
+				flex-direction: row;
+				justify-content: space-between;
+				width: 1170px;
+				padding-right:74px;
+				padding-left: 74px;
+				margin-top:25px;
+				margin-bottom:25px;
+				.talk-sub-container{
+					width: 655px;
+					.talk-content{
+						margin-top:35px;
+					}
+				}
+				.talk-author-image{
+					@include square_box(315px);
+				}
+			}
+		}
+		.load-more{
+			margin-top:30px;
+		}
+	}
+	.category-option-selection > select{
+		margin-bottom: 45px;
+	}
+	.single-talks{
+		.single-jumbotron{
+			padding-top:70px;
+			padding-bottom:70px;
+			.back-button-row{
+				margin-bottom: 0;
+				margin-top: 10px;
+				margin-left:5px;
+			}
+			.talks-info-container{
+				.talk-author-image{
+					@include square_box(240px);
+				}
+				.about-talks-author{
+					margin-left:40px;
+					.author-name{
+						margin-top:70px;
+					}
+				}
+			}
+			.case_study_heading{
+				margin-bottom: 35px;
+			}
+			.case_study_subheading{
+				margin-bottom: 35px;
+			}
+		}
+	}
+	.talks-widget{
+		.talks-widget-container{
+			width:450px;
+			margin-left: 20px;
+			padding-top: 20px;
+			padding-bottom: 25px;
+			.header-text{
+				font-size: 34px;
+			}
+			.talks-title{
+				font-size: 36px;
+				width:360px;
+				margin-top: 24px;
+			}
+			.talks-author-image{
+				@include square_box(140px);
+			}
+			.talks-author-name{
+				font-size: 18px;
+			}
+			.talks-subtitle{
+				font-size: 20px;
+				width: 300px;
+			}
+			.read-more-talks{
+				font-size: 20px;
+			}
+		}
+	}
+	.coloredcow-form {
+		.bootstrap-container {
+			width: 1170px;
+		}
+		form {
+			label {
+				font-size: 18px;
+				line-height: 25px;
+			}
+			p {
+				font-size: 16px;
+				line-height: 22px;
+			}
+			button {
+				font-size: 18px;
+			}
+			input, select, textarea {
+				font-size: 16px !important;
+			}
+		}
+	}
+	.page-codetrek {
+		.codetrek-jumbotron {
+			.left-block {
+				h3 {
+					margin-top: 0;
+					max-width: 550px;
+				}
+			}
+			.right-block {
+				img {
+					height: 600px;
+					width: 600px;
+				}
+			}
+		}
+		.header-division {
+			margin-left:	math.div(1, 6);
+			padding-top: 50px;
+			padding-left: 70px;
+			padding-right: 70px;
+			margin-top: -320px;
+			.title {
+				margin-bottom: 25px;
+			}
+		}
+		.college-participation-band {
+			.tag-content {
+				text-align: center;
+			}
+		}
+
+		.codetrek-session-container {
+			margin-top: 30px;
+		}
+
+		.how-it-works-section {
+			.text-block {
+				width: 330px !important;
+			}
+			.faq-flag {
+				height: 143px;
+				width: 210px;
+				margin-right: 15px;
+				.faq-tagline {
+					margin-top: 30px;
+				}
+			}
+		}
+		.now-running-title {
+			height: 30px;
+			width: 330px;
+		}
+
+		.on-going-session-box{
+			padding-top:30px;
+			margin-top:10px;
+			.title{
+				font-size: 36px;
+			}
+		}
+		.alumni-container {
+			padding: 100px 0;
+			.image-block {
+				width: 210px;
+				height: 210px;
+				margin: 15px;
+			}
+		}
+	}
+	.page-single-codetrek-session {
+		.session-container {
+			.mentor-block {
+				padding-top: 20px;
+			}
+		}
+		.session-readmore {
+			margin-top: 20px;
+		}
+	}
+	.mentor-modal {
+		.modal-body {
+			padding-right: 90px;
+		}
+	}
+	.page-research {
+		.page-research-container {
+			padding-top: 60px;
+			padding-left:100px;
+			width:1200px;
+			.container-title{
+				font-size: 130px;
+				line-height: 80px;
+				padding-bottom: 25px;
+			}
+			.title{
+				font-size: 30px;
+				line-height: 40px;
+			}
+		}
+		.research-studies-container{
+			width:1200px;
+			padding-left: 85px;
+			padding-right: 85px;
+			.research-study-block{
+				margin-left: 15px;
+				margin-right: 15px;
+
+					.research-title{
+						font-size: 27px;
+						padding: 0 20px 10px;
+					}
+				.research-information{
+					font-size: 21px;
+					line-height: 24px;
+					margin-bottom: 5px;
+					.research-tags-container{
+						width:313px;
+					}
+				}
+			}
+		}
+	}
+	.research-study{
+		width: 313px;
+		height: 249px;
+	}
+}
+@media only screen and (min-width: 1441px) {
+	.cc-container {
+		max-width: 1441px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.page-research {
+		.page-research-container {
+			width:1300px;
+		}
+		.research-studies-container{
+			width:1300px;
+			.research-study-block{
+					margin-left: 20px;
+					margin-right: 20px;
+
+				.research-information{
+					font-size: 21px;
+					line-height: 24px;
+					margin-bottom: 5px;
+				}
+			}
+		}
+	}
+	.research-study{
+			width: 335px;
+	}
+	.talks-widget{
+		.talks-widget-container{
+			width:450px;
+			margin-left: 35px;
+		}
+	}
+}
+
+.input-type-field input[type=text] , .input-type-email input[type=email]{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	border: solid 1px #142F30 !important;
+	border-radius: 0 !important;
+	height: 60px !important;
+	font-size: 20px;
+	width: 100%;
+}
+
+.input-type-button input[type=submit]{
+	outline: 0;
+	color: #fff !important;
+	font-size: 16px;
+	display: inline-block !important;
+	padding: 15px 20px;
+	background-image: -webkit-linear-gradient(-225deg, #B11C54 0%, #610FA9 100%) !important;
+	border-radius: 0;
+	text-align: center;
+	border: none !important;
+	display: flex;
+	align-items: center;
+}
